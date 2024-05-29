@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header>
+
+        <h3>To-do List</h3>
+
+    </header>
+
+
+    <div class="incluir">
+        <input type="text" id="tarefa" placeholder="Informe a tarefa">
+        <input type="date" id="data">
+
+        <div class="botoes">
+
+            <span onclick="addElemento()" class="addBtn">Incluir</span>
+            <span onclick="limparElemento()" id="cleanBtn">Limpar</span>
+
+        </div>
+       
+    </div>
+
+
+
+    <div class="to-list">
+
+        <div class="quadro-to-do-list">
+
+            <ul id="itemLista">
+
+                <li class="tarefa">Tomar café </li>
+               
+                <li class="tarefa">Fazer compras </li>
+            
+                <li class="tarefa">Entregar atividade no moodle </li>
+            
+            </ul>
+
+        </div>
+
+    </div>
+  
+    <script src="script.js"></script>
+        
+</body>
+</html>
